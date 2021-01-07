@@ -45,8 +45,8 @@ public class Disco {
         prezzo = prezzo + newPrezzo;
     }
 
-    public void incrementoNumeroCanzoni() {
-        numeroCanzoni = numeroCanzoni + 2;
+    public void incrementoNumeroCanzoni(float newCanzoni) {
+        numeroCanzoni = numeroCanzoni + newCanzoni;
     }
 
     public void print() {

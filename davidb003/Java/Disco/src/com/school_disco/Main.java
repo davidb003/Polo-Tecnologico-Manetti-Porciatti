@@ -6,16 +6,16 @@ public class Main {
         float newPrezzo;
 
         Disco disco = new Disco();
-        boolean execute = true;
         Scanner scanner = new Scanner(System.in);
+        byte select = 0;
+        boolean execute = true;
 
-        while (true) {
-            byte select = 0;
-
+        while (execute) {
             System.out.println("==========Main Menu==========\n" +
                     "1) Output" +
                     "\n2) Aggiungi Prezzo" +
-                    "\n3) Aggiungi Canzoni");
+                    "\n3) Aggiungi Canzoni" +
+                    "\n4) Chiudi");
             System.out.println("> ");
             select = scanner.nextByte();
 
@@ -26,7 +26,17 @@ public class Main {
 
                 case 2:
                     System.out.println("\nDi quanto vuoi incrementarte il prezzo?\n> ");
-                    disco.incrementoPrezzo(scanner.nextByte());
+                    disco.incrementoPrezzo(scanner.nextFloat());
+                    break;
+
+                case 3:
+                    System.out.println("\nQuante canzoni vuoi aggiungere?\n> ");
+                    disco.incrementoNumeroCanzoni(scanner.nextFloat());
+
+                    break;
+
+                case 4:
+                    execute = !execute;
                     break;
             }
         }
