@@ -1,31 +1,36 @@
 package com.school_HDD;
-import
+
+import java.util.Scanner;
+
 public class Main {
-
     public static void main(String[] args) {
-	    int minuti = 5;
-	    int secondi = 0;
-	    int punteggio = 0;
 
+        Scanner scan = new Scanner(System.in);
 
-        try {
-            Thread.sleep(1);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+        final int MAX_HD = 5;
+        Harddisk[] hd = new Harddisk[MAX_HD];
+        int timer; // DURATA DEL TEST
+        int clock = 0;
+
+        timer = (scan.nextInt())*1000; // IN MS
+
+        for (Harddisk disco: hd) {
+            disco.leggiDati();
         }
 
-        for (minuti - 1; ) {
-
+        for (int i = 0; i < timer; i++) {
+            for (Harddisk disco: hd) {
+                disco.setPunteggio((disco.puntiAccesso()));
+                if (clock == 60000) {
+                    disco.setPunteggio(disco.getRpm());
+                    clock = 0;
+                }
+                clock++;
+            }
         }
 
-        try {
-            Thread.sleep(60000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        for (punteggio++) {
-
+        for (Harddisk disco : hd) {
+            disco.stampaDati();
         }
     }
 }
