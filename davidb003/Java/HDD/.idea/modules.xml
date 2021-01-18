@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HardDisk.iml" filepath="$PROJECT_DIR$/HardDisk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HDD.iml" filepath="$PROJECT_DIR$/HDD.iml" />
     </modules>
   </component>
 </project>
