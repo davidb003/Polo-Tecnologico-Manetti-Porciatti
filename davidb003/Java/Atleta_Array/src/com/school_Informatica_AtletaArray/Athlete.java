@@ -26,8 +26,15 @@ public class Athlete {
         this.goals = goals;
     }
 
-    public int Score()
-    {
-        //  ¯\_(ツ)_/¯
+    public String getName() {
+        return name;
+    }
+
+    public String getTeam() {
+        return team;
+    }
+
+    public byte getGoals() {
+        return goals;
     }
 }
