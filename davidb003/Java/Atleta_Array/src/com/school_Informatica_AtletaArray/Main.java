@@ -66,6 +66,8 @@ public class Main {
 
                         System.out.println("\n");
                         System.out.println("Cerca un team > ");
+                    System.out.println("\n1. Giocatori che hanno fatto più di 10 goals" +
+                            "\n2. Cerca un team");
                         inputSearchTeam = reqInput.next();
                     for (i = 0; i < arrayWidth; i++) {
                         if (inputSearchTeam.equals(array[i].team)) {
