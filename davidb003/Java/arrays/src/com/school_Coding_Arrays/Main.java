@@ -25,6 +25,6 @@ public class Main {
 
         int finalRetVal;
         finalRetVal = retVal + 1;
-        System.out.println("The index of element 22 is : " + finalRetVal);
+        System.out.println("L'elemento " + searchVal + " si trova nella posizione " + finalRetVal);
     }
 }
