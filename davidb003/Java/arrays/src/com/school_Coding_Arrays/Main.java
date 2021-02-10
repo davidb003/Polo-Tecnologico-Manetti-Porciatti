@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner reqInput = new Scanner(System.in);
 
-        Object array[] = {10,2,22,69};
+        Object[] array = {10,2,22,69};
 
         Arrays.sort(array);
 
