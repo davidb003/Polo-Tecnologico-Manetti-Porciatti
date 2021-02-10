@@ -1,16 +1,31 @@
 package com.school_Coding_Arrays;
 import java.util.Arrays;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
         Scanner reqInput = new Scanner(System.in);
+        Random rand = new Random();
 
-        Object[] array = {10,2,22,69};
+        int lenght = 0;
+        System.out.println("Quanti numeri vuoi inserire? >");
+        lenght = reqInput.nextInt();
+        System.out.println("Inserisci la dimensione massima dei numeri generati >");
+        int maxNum;
+        maxNum = reqInput.nextInt();
+        int[] array = new int [lenght];
+
+        int randNum;
+        int i = 0;
+        for (Object number : array) {
+            randNum = rand.nextInt(maxNum);
+            System.out.println(randNum);
+            array[i] = randNum;
+        }
 
         Arrays.sort(array);
-
         System.out.println("Riordiamento array:");
         for (Object number : array) {
             System.out.println(number);
