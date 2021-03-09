@@ -17,9 +17,6 @@ public class Main {
         for(i = 0; i < array.length; i++) {
             array[i] = rand.nextInt(2);
         }
-        for(i = 0; i < array.length; i++) {
-            System.out.println(array[i]);
-        }
 
 
         for(i = 0; i < lanci; i++) {
