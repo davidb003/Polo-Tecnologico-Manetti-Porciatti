@@ -1,32 +1,39 @@
 package com.school_Coding_FlipACoin;
 
+import java.util.Random;
+
 public class Main {
 
     public static void main(String[] args) {
-        Coin coin = new Coin();
+        Random rand = new Random();
 
-        // Tails = Testa
-        // Heads = Croce
-        // Tosses = Lanci
+        int testa = 0;
+        int croce = 0;
+        int i = 0;
+        int lanci = 10;
 
-        double numTosses = 100;
-        double tails = 0;
-        for(int i =0; i < numTosses; i++){
-            if(Coin.isNTales()){
-                tails++;
+        int[] array = new int[10];
+
+        for(i = 0; i < array.length; i++) {
+            array[i] = rand.nextInt(2);
+        }
+        for(i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
+
+
+        for(i = 0; i < lanci; i++) {
+            if (array[i] >= 1) {
+                croce++;
+            }
+            else {
+                testa++;
             }
         }
-        System.out.println("Lanciando la moneta " + numTosses + " volte si è ottenuto TESTA in una percentuale di " +
-                tails/numTosses);
 
-        for(int i =0; i < numTosses; i++){
-            if(Coin.isNHeads()){
-                tails++;
-            }
+        System.out.println(testa);
+        System.out.println(croce);
+
+
         }
-        System.out.println("Lanciando la moneta " + numTosses + " volte si è ottenuto CROCE in una percentuale di " +
-                tails/numTosses);
-
-
-    }
 }
