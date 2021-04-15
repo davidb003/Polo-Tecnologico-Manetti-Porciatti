@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="UIHotel:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/UIHotel_jar</output-path>
+    <root id="archive" name="UIHotel.jar">
+      <element id="module-output" name="UIHotel" />
+    </root>
+  </artifact>
+</component>
