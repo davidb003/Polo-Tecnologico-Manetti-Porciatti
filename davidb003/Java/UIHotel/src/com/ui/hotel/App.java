@@ -15,6 +15,8 @@ public class App {
     private JLabel maxTryReached;
     private JLabel HotelPhoto;
     private JButton wychodzićButton;
+    private JComboBox comboBox1;
+    private JLabel textPlat;
 
     boolean isSmokerSelected = false;
     boolean isMatrimonialeSelected = false;
@@ -38,9 +40,17 @@ public class App {
                     output = output + "\n- Parcheggio";
                 }
 
-                JOptionPane.showMessageDialog(null, output);
+                String inputComboBox;
+                inputComboBox = (String) comboBox1.getSelectedItem();
+
+
+                JOptionPane.showMessageDialog(null, output + "\n\nWybrana metoda płatności:"
+                        + inputComboBox);
                 confirmButton.setVisible(false);
+                comboBox1.setVisible(false);
+                textPlat.setVisible(false);
                 maxTryReached.setText("Koniec programu.\n Uruchom go ponownie, aby spróbować ponownie");
+
             }
         });
         infobutton.addActionListener(new ActionListener() {
@@ -60,6 +70,12 @@ public class App {
             @Override
             public void actionPerformed(ActionEvent e) {
                 System.exit(0);
+            }
+        });
+        comboBox1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
             }
         });
     }
