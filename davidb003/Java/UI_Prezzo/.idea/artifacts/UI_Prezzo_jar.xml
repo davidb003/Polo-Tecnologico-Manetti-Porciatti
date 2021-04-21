@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="UI_Prezzo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/UI_Prezzo_jar</output-path>
+    <root id="archive" name="UI_Prezzo.jar">
+      <element id="module-output" name="UI_Prezzo" />
+    </root>
+  </artifact>
+</component>
