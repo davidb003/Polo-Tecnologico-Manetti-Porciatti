@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="UI_Dadi:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/UI_Dadi_jar</output-path>
+    <root id="archive" name="UI_Dadi.jar">
+      <element id="module-output" name="UI_Dadi" />
+    </root>
+  </artifact>
+</component>
