@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="UI_Regioni:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/UI_Regioni_jar</output-path>
+    <root id="archive" name="UI_Regioni.jar">
+      <element id="module-output" name="UI_Regioni" />
+    </root>
+  </artifact>
+</component>

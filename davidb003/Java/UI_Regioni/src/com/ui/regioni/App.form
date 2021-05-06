@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.ui.regioni.App">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="10" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="5903" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <hspacer id="4809">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="5" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="ae2cd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Select a city"/>
+        </properties>
+      </component>
+      <component id="599a8" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="3" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Select ..."/>
+            <item value="Reggio Calabria"/>
+            <item value="Catanzaro"/>
+            <item value="Lamezia Terme"/>
+            <item value="Cosenza"/>
+            <item value="Crotone"/>
+            <item value="Acri"/>
+            <item value="Taurianova"/>
+          </model>
+        </properties>
+      </component>
+      <component id="722eb" class="javax.swing.JCheckBox" binding="pietanza1">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Soppressata di Calabria"/>
+        </properties>
+      </component>
+      <component id="3333f" class="javax.swing.JCheckBox" binding="pietanza2">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Pecorino Crotonese."/>
+        </properties>
+      </component>
+      <component id="46c6" class="javax.swing.JCheckBox" binding="pietanza3">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Bergamotto di Reggio Calabria."/>
+        </properties>
+      </component>
+      <component id="b779b" class="javax.swing.JButton" binding="viewInfoButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="View Info"/>
+        </properties>
+      </component>
+      <hspacer id="2ee20">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="5" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="8f17a" class="javax.swing.JLabel" binding="PietanzeDesc2">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <text value="Viene prodotto con latte di pecora intero, proveniente da pecore allevate esclusivamente nella zona di produzione [2] . La sua stagionatura dura fino a due anni. Può essere consumato come antipasto o altri prodotti tipici della cucina calabrese. Viene consumato anche come ingrediente da cucina e può essere grattugiato per accompagnare i primi piatti."/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="caf09" class="javax.swing.JLabel" binding="PietanzeDesc1">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <text value="prepara prendendo le parti migliori della\n coscia del maiale, tritate e prive di nervi e insaccandole in budello naturale,\n in particolare bisogna usare il budello proveniente dall#39;intestino crasso, ben lavato\n con acqua, vino e limone e messo a mollo. Si usa anche il budello \ndel bue che è più resistente. Si impasta la carne con sale e\n peperoncino rosso piccante. Una volta riempito il budello, viene forato con uno spillo e legato a mano.\n Il tutto viene poi lasciato asciugare all'aria."/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="e07bf" class="javax.swing.JLabel" binding="PietanzeDesc3">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <text value="Essenza defurocumarinizzata: (su parti non escoriate) miscelato tra 1% e il 5% in vaselina o alcool, come blando anestetico locale per lenire i dolori reumatici e da contusione."/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <hspacer id="38a03">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="5" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="7a0d8" class="javax.swing.JButton" binding="viewAPhotoOfButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="View a photo of the selected city"/>
+          <visible value="true"/>
+        </properties>
+      </component>
+      <component id="4a328" class="javax.swing.JLabel" binding="ImageReggioCalabria" custom-create="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <text value="Image1"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="7dfd" class="javax.swing.JLabel" binding="CatanzaroImage" custom-create="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="eae08" class="javax.swing.JLabel" binding="LameziaTermeImage" custom-create="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="LameziaTermeImage"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="da03e" class="javax.swing.JLabel" binding="CosenzaImage" custom-create="true">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="7a2ec" class="javax.swing.JLabel" binding="CrotoneImage" custom-create="true">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="dca26" class="javax.swing.JLabel" binding="AcriImage" custom-create="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="9e642" class="javax.swing.JLabel" binding="TaurianovaImage" custom-create="true">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
