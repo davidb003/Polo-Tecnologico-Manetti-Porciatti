@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="UI_Calc:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/UI_Calc_jar</output-path>
+    <root id="archive" name="UI_Calc.jar">
+      <element id="module-output" name="UI_Calc" />
+    </root>
+  </artifact>
+</component>
